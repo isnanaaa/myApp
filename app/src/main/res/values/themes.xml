@@ -3,7 +3,19 @@
     <style name="Base.Theme.Hanrry" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!--Primary brand color.-->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/gold</item>
+        <!--Secondary brand color-->
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorOnSecondary">@color/black</item>
     </style>
 
     <style name="Theme.Hanrry" parent="Base.Theme.Hanrry" />
+
+    <style name="Theme.AppCompat.SplasScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/handycarry_logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Hanrry</item>
+    </style>
+
 </resources>

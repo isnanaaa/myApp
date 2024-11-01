@@ -10,9 +10,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 class FooAdapter
-    (private val listFood: ArrayList<Foo>)
-//     private val onClick: (Foo) -> Unit)
-    : RecyclerView.Adapter<FooAdapter.ViewHolder>(){
+    (private val listFood: ArrayList<Foo>) : RecyclerView.Adapter<FooAdapter.ViewHolder>(){
 
     private lateinit var onItemClickCallback: OnItemClickCallback
 
@@ -65,10 +63,4 @@ class FooAdapter
     interface OnItemClickCallback {
         fun onItemClicked(data: Foo)
     }
-
-//    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-//        val img: ImageView = itemView.findViewById(R.id.img_item)
-//        val tvName: TextView = itemView.findViewById(R.id.item_name)
-//        val tvDescription: TextView = itemView.findViewById(R.id.item_description)
-//    }
 }

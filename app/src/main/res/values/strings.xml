@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">hanrry</string>
+    <string name="app_name">HandyrraC</string>
 
     <string name="foods_name">Nama Makanan</string>
     <string name="description">Deskripsi</string>
@@ -76,6 +76,7 @@
         <item>@drawable/brem_madiun</item>
         <item>@drawable/cenil</item>
         <item>@drawable/dodol_garut</item>
+        <item>@drawable/getuk_goreng_sokaraja</item>
         <item>@drawable/kasuami</item>
         <item>@drawable/kue_ape</item>
         <item>@drawable/kue_semprong</item>

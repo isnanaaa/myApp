@@ -36,24 +36,5 @@ class DetailActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.detail_name).text = name
         findViewById<TextView>(R.id.detail_desc).text = desc
         findViewById<ImageView>(R.id.detail_img).setImageResource(imageResId)
-
-
-//        val hero = intent.getParcelableExtra<Foo>(KEY_HERO)
-//        val intent = Intent(this, DetailActivity::class.java)
-//        intent.putExtra(DetailActivity.KEY_HERO, hero)
-//        startActivity(intent)
-//
-//        val title = intent.getStringExtra("TITLE")
-//        val description = intent.getStringExtra("DESCRIPTION")
-//        val image = intent.getIntExtra("IMAGE", 0)
-//
-//        val titleTextView: TextView = findViewById(R.id.detail_name)
-//        val descriptionTextView: TextView = findViewById(R.id.detail_desc)
-//        val imageView: ImageView = findViewById(R.id.detail_img)
-//
-//        titleTextView.text = title
-//        descriptionTextView.text = description
-//        imageView.setImageResource(image)
     }
-
 }

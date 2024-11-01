@@ -4,9 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.GridLayoutManager
@@ -17,18 +17,14 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var rvFoods: RecyclerView
     private val list = ArrayList<Foo>()
-//    private fun showSelectedItem(hero: Foo) {
-//        Toast.makeText(this, "Kamu memilih " + hero.name, Toast.LENGTH_SHORT).show()
-//        val intent = Intent(this, DetailActivity::class.java)
-//        intent.putExtra(DetailActivity.KEY_HERO, hero)
-//        startActivity(intent)
-//    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Thread.sleep(3000)
+        installSplashScreen()
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        rvFoods = findViewById(R.id.rv_heroes)
+        rvFoods = findViewById(R.id.rv_foods)
         rvFoods.setHasFixedSize(true)
 
         list.addAll(getListFoods())
@@ -68,8 +64,8 @@ class MainActivity : AppCompatActivity() {
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val listFoo = ArrayList<Foo>()
         for (i in dataName.indices) {
-            val hero = Foo(dataName[i], dataDesc[i], dataPhoto.getResourceId(i, -1))
-            listFoo.add(hero)
+            val  foo = Foo(dataName[i], dataDesc[i], dataPhoto.getResourceId(i, -1))
+            listFoo.add(foo)
         }
         return listFoo
     }
@@ -83,32 +79,13 @@ class MainActivity : AppCompatActivity() {
 
             override fun onItemClicked(data: Foo) {
                 val intent = Intent(this@MainActivity, DetailActivity::class.java)
-//                intent.putExtra("DATA", data)
-//                startActivity(intent)
-//                showSelectedItem(data)
 
                 intent.putExtra(DetailActivity.KEY_NAME, data.name)
                 intent.putExtra(DetailActivity.KEY_DESC, data.description)
-                intent.putExtra(DetailActivity.KEY_IMAGE, data.photo) // Make sure imageResId is an Int representing a drawable resource ID
+                intent.putExtra(DetailActivity.KEY_IMAGE, data.photo)
 
                 startActivity(intent)
             }
         })
-
     }
-
-//    private fun FooAdapter(listFood: ArrayList<Foo>): FooAdapter {
-//        val adapter = FooAdapter(list)
-//            // Menjalankan halaman detail ketika item di klik
-//            val intent = Intent(this, DetailActivity::class.java).apply {
-//                putExtra("TITLE", item.name)
-//                putExtra("DESCRIPTION", item.description)
-//                putExtra("IMAGE", item.photo)
-//            }
-//            startActivity(intent)  // memulai DetailActivity dengan data yang dikirim
-//
-//        // menyambungkan adapter ke RecyclerView
-//        rvFoods.adapter = adapter
-//        return adapter
-//    }
 }
