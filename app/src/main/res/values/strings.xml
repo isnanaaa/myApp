@@ -5,6 +5,11 @@
     <string name="description">Deskripsi</string>
     <string name="list">List</string>
     <string name="grid">Grid</string>
+    <string name="about">About</string>
+    <string name="specification">Spesifikasi</string>
+    <string name="display">Daerah</string>
+    <string name="size">Jenis</string>
+    <string name="battery">Sejarah</string>
 
     <string-array name="data_name">
         <item>Bakpia Pathok</item>
@@ -64,4 +69,11 @@
         <item>@drawable/serabi</item>
         <item>@drawable/tenteng_malino</item>
     </integer-array>
+
+    <string name="title">Bakpia Pathok</string>
+    <string name="content_text"> Bakpia pathok adalah kue berbentuk bulat pipih, terbuat dari campuran kacang hijau dengan gula, yang dibungkus dengan tepung, lalu dipanggang. Bakpia asal mulanya berasal dari daratan Tiongkok. Bakpia pathok adalah salah satu varian bakpia yang berkembang di Yogyakarta. Saat ini, bakpia pathuk menjadi salah satu makanan khas sekaligus oleh-oleh khas dari Yogyakarta. Ini merupakan salah satu wujud nyata akulturasi budaya Tiongkok dan budaya Jawa, dalam hal ini budaya Yogyakarta.</string>
+    <string name="content_specs_display">Yogyakarta</string>
+    <string name="content_specs_size">Kue</string>
+    <string name="content_specs_battery">Secara historis, bakpia adalah makanan impor dari negeri Tiongkok yang dibawa oleh para imigran Tionghoa pada dekade awal abad ke-20. Bakpia konon sudah ada sejak tahun 1930-an. Dimiliki oleh keluarga-keluarga pedagang Tionghoa yang banyak menempati pusat Kota Yogyakarta. Jenis makanan ini awalnya bukanlah makanan komersial, juga bukan makanan yang bernilai kultural seperti kue keranjang yang sering menjadi kue dalam perayaan Imlek. Posisinya adalah sebagai pelengkap dari kue keranjang tersebut dan sebagai kudapan keluarga.</string>
+
 </resources>

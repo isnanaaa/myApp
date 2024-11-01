@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
     private val list = ArrayList<Foo>()
     private fun showSelectedItem(hero: Foo) {
         Toast.makeText(this, "Kamu memilih " + hero.name, Toast.LENGTH_SHORT).show()
+//        val intent = Intent(this, DetailActivity::class.java)
+//        intent.putExtra(DetailActivity.KEY_HERO, hero)
+//        startActivity(intent)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -70,7 +73,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvFoods.layoutManager = LinearLayoutManager(this)
-        val fooAdapter = FooAdapter(list)
+        val fooAdapter = FooAdapter(list){food ->
+            val intent = Intent(this, DetailActivity::class.java)
+
+            intent.putExtra(DetailActivity.KEY_NAME, food.name)
+            intent.putExtra(DetailActivity.KEY_DESCRIPTION, food.description)
+            intent.putExtra(DetailActivity.KEY_IMAGE, food.photo) // Make sure imageResId is an Int representing a drawable resource ID
+
+            startActivity(intent)
+        }
 
         rvFoods.adapter = fooAdapter
 
@@ -82,5 +93,21 @@ class MainActivity : AppCompatActivity() {
                 showSelectedItem(data)
             }
         })
+    }
+
+    private fun FooAdapter(listFood: ArrayList<Foo>): FooAdapter {
+        val adapter = FooAdapter(list) { item ->
+            // Menjalankan halaman detail ketika item di klik
+            val intent = Intent(this, DetailActivity::class.java).apply {
+                putExtra("TITLE", item.name)
+                putExtra("DESCRIPTION", item.description)
+                putExtra("IMAGE", item.photo)
+            }
+            startActivity(intent)  // memulai DetailActivity dengan data yang dikirim
+        }
+
+        // menyambungkan adapter ke RecyclerView
+        rvFoods.adapter = adapter
+        return adapter
     }
 }

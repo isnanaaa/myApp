@@ -1,5 +1,6 @@
 package com.example.hanrry
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,27 +30,35 @@ class FooAdapter
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val (name, description, image) = listFood[position]
         val food = listFood[position]
+
         holder.bind(food)
-        holder.img.setImageResource(image)
-        holder.tvName.text = name
-        holder.tvDescription.text = description
+        holder.image.setImageResource(image)
+        holder.name.text = name
+        holder.description.text = description
         holder.itemView.setOnClickListener {
             Toast.makeText(holder.itemView.context, "Kamu memilih " + listFood[holder.adapterPosition].name, Toast.LENGTH_SHORT).show()
         }
-        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listFood[holder.adapterPosition]) }
+        holder.itemView.setOnClickListener {
+            onItemClickCallback.onItemClicked(listFood[holder.adapterPosition])
+        }
     }
 
-    inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val name: TextView = itemView.findViewById(R.id.item_name)
-        private val description: TextView = itemView.findViewById(R.id.item_description)
-        private val image: ImageView = itemView.findViewById(R.id.img_item)
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+
+        val name: TextView = itemView.findViewById(R.id.item_name)
+        val description: TextView = itemView.findViewById(R.id.item_description)
+        val image: ImageView = itemView.findViewById(R.id.img_item)
         fun bind(food: Foo) {
             name.text = food.name
             description.text = food.description
             image.setImageResource(food.photo)
             itemView.setOnClickListener {
-                onClick(food)
+                onClickListener(food)
             }
+        }
+
+        private fun onClickListener(food: Foo) {
+
         }
     }
 
@@ -57,9 +66,9 @@ class FooAdapter
         fun onItemClicked(data: Foo)
     }
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val img: ImageView = itemView.findViewById(R.id.img_item)
-        val tvName: TextView = itemView.findViewById(R.id.item_name)
-        val tvDescription: TextView = itemView.findViewById(R.id.item_description)
-    }
+//    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+//        val img: ImageView = itemView.findViewById(R.id.img_item)
+//        val tvName: TextView = itemView.findViewById(R.id.item_name)
+//        val tvDescription: TextView = itemView.findViewById(R.id.item_description)
+//    }
 }
