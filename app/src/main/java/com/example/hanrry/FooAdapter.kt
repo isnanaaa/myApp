@@ -10,8 +10,8 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 class FooAdapter
-    (private val listFood: ArrayList<Foo>,
-     private val onClick: (Foo) -> Unit)
+    (private val listFood: ArrayList<Foo>)
+//     private val onClick: (Foo) -> Unit)
     : RecyclerView.Adapter<FooAdapter.ViewHolder>(){
 
     private lateinit var onItemClickCallback: OnItemClickCallback

@@ -11,6 +11,20 @@
     <string name="size">Jenis</string>
     <string name="battery">Sejarah</string>
 
+    <string name="content_aboutme"> I am a fifth-semester Informatic Engineering student with a strong interest in technology and everything related to logic. Throughout my studies, I have learned several programming languages, including C++, Java, Phyton, and Kotlin. Additionally, I have studied web development and 3D modeling. In the field of 3D modeling, I use software like Blender and SketchUp, and I greatly enjoy the creative process of building 3D models.</string>
+    <string name="content_domicile">Cilacap, Central Java</string>
+    <string name="content_no">+62 852 9116 0775</string>
+    <string name="content_email">isnan238@gmail.com</string>
+    <string name="content_ig">almond.dy</string>
+    <string name="content_motto">If you dont move, nothing will change.</string>
+    <string name="myname">Isna Nurul Azizah</string>
+    <string name="more">More About Me</string>
+    <string name="domicile">Domicile</string>
+    <string name="no">Phone</string>
+    <string name="email">Email</string>
+    <string name="ig">Social Media</string>
+    <string name="motto">Motto</string>
+
     <string-array name="data_name">
         <item>Bakpia Pathok</item>
         <item>Bika Ambon</item>
