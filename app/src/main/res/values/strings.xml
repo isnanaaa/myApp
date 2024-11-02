@@ -85,6 +85,54 @@
         <item>@drawable/tenteng_malino</item>
     </integer-array>
 
+    <string-array name="data_dom">
+        <item>Pathuk\n
+        Kota Yogyakarta\n
+        DI Yogyakarta</item>
+        <item>Medan\n
+            Sumatera Utara</item>
+        <item>Madiun</item>
+        <item>Kabupaten Pacitan</item>
+        <item>Garut</item>
+        <item>Sokaraja </item>
+        <item>Sulawesi Tenggara</item>
+        <item>Jakarta</item>
+        <item>Kabupaten Sekadau</item>
+        <item>Bengkulu, Jambi, Bengkalis, Pekanbaru</item>
+        <item>Surakarta</item>
+        <item>Kota Malino, Sulawesi Selatan</item>
+    </string-array>
+
+    <string-array name="data_type">
+        <item>Kue</item>
+        <item>Kue</item>
+        <item>Kue</item>
+        <item>Hidangan</item>
+        <item>Kue</item>
+        <item>Kue</item>
+        <item>Kue</item>
+        <item>Kue</item>
+        <item>Kue Kering</item>
+        <item>Lempuk</item>
+        <item>Panekuk</item>
+        <item>Kue</item>
+    </string-array>
+
+    <string-array name="data_history">
+        <item>Secara historis, bakpia adalah makanan impor dari negeri Tiongkok yang dibawa oleh para imigran Tionghoa pada dekade awal abad ke-20. Bakpia konon sudah ada sejak tahun 1930-an. Dimiliki oleh keluarga-keluarga pedagang Tionghoa yang banyak menempati pusat Kota Yogyakarta. Jenis makanan ini awalnya bukanlah makanan komersial, juga bukan makanan yang bernilai kultural seperti kue keranjang yang sering menjadi kue dalam perayaan Imlek. Posisinya adalah sebagai pelengkap dari kue keranjang tersebut dan sebagai kudapan keluarga.</item>
+        <item>Pada tanggal 26 Agustus 1933, koran edisi Belanda, De locomotief, memampangkan iklan di Kota Semarang yang menyebutkan bikang ambon.[2] Bikang ambon juga sudah dituliskan oleh koran yang sama pada tahun 1896 di Kwitang, Batavia --sekarang Jakarta-- (De locomotief: Samarangsch handels- en advertentie-blad, 10-02-1896).\nBika ambon dikenal sebagai oleh-oleh khas Kota Medan, Sumatera Utara. Di Medan, Jalan Mojopahit di daerah Medan Petisah terdapat sedikitnya 30 toko yang menjual kue ini. Setiap toko di lokasi ini bisa menjual lebih dari 1.000 bungkus bika ambon perhari menjelang hari raya.</item>
+        <item>Bentuk pertama yang lebih dulu dikenal adalah makanan tradisional khas yang berasal dari Kecamatan Mejayan, Kecamatan Wonoasri, Madiun, dan berasal dari dua desa penghasil: Bancong dan Kaliabu. Brem dikemas berbentuk lempengan agak kekuningan, rata-rata berukuran kurang lebih 15 cm x 5 cm x 0,5 cm. Untuk lebih memaksimalkan pemasarannya, brem kini dikemas dalam bentuk kecil kecil seukuran permen, sehingga mudah untuk dikantongi. Biasanya pada sekitar tahun 80-an, brem dalam bentuk ini dijual asongan oleh para pedagang di sekitar stasiun-stasiun di kereta api di daerah Jawa Timur.</item>
+        <item>Cenil atau cetil adalah penganan tradisional khas Jawa yang sudah ada sejak tahun 1814 M. Seperti yang terdapat dalam Serat Centini.[2][3] Namun, diperkirakan pula sudah ada sejak zaman Mataram Kuno abad ke-8 M.\nPada tahun 1990-an, cenil hanya dijual di pasar tradisional yang buka hanya pada hari pasaran saja. Cenil juga menjadi ikon suatu pasar di Kabupaten Tulungagung, Jawa Timur.</item>
+        <item>Berdasarkan situs resmi Kemdikbud, industri dodol di kabupaten ini mulai berkembang sekitar tahun 1926 atau hampir satu abad yang lalu. Salah satu orang yang mengembangkan industri dodol saat itu adalah Karsinah. Pada saat itu, dodol Garut masih menggunakan bahan baku yang sederhana, yaitu tepung beras ketan, susu, gula putih, dan santan kelapa tanpa bahan pengawet. Selain itu, proses pembuatannya pun masih terbilang sederhana. Seiring berjalannya waktu, industri dodol di Garut pun semakin berkembang. Sampai akhirnya bermunculan pengusaha dodol Garut lain pada sekitar tahun 1950-an.</item>
+        <item>Getuk goreng ditemukan pada tahun 1918 secara tidak sengaja oleh Sanpirngad, seorang penjual nasi rames keliling di daerah Sokaraja, yang salah satu dagangannya ialah getuk basah. Pada saat itu, getuk yang ia jual tidak laku sehingga mencari ide agar getuk tersebut bisa dikonsumsi kembali. Kemudian, dia menggoreng getuk tersebut dan menjualnya. Ternyata, getuk goreng ini digemari oleh para pembeli dan disukai. Kini, getuk goreng bukanlah makanan yang tidak lagi terjual melainkan getuk yang sengaja dijual.</item>
+        <item>Kasuami dikenal di Sulawesi Tenggara sebagai hidangan nenek moyang suku Wakatobi yang menyebar ke pulau Buton.[5] Kasuami diperkirakan menjadi konsumsi sehari-hari oleh warga nelayan dan petani sebab desanya tidak bisa ditumbuhi tanaman padi. Di dua wilayah tersebut, tanaman singkong yang menjadi bahan dasar kasuami, tumbuh subur dan menjadi makanan pokok sehari-hari.</item>
+        <item></item>
+        <item>Kue semprong berasal dari istilah dalam bahasa Jawa yang merujuk pada teknik pengolahan di panggang menggunakan cetakan semprong kemudian digulung menyerupai lampu semprong, segitiga, pipih seperti kipas dan persegi panjang.).</item>
+        <item>Awalnya lempuk durian (di Bengkalis lebih dikenal dengan sebutan lempuk durian) mulai dibuat dan dikomersilkan sejak tahun 1991 oleh seorang warga Kota Bengkalis bernama Selamat alias Ahok. Musim durian terjadi dua tahun sekali dan di luar musim stok durian selalu tersedia di Kota bengkalis. Ketersediaan pasokan durian yang melimpah menjadikan harganya sangat murah. Sehingga muncul ide untuk meningkatkan nilai ekonomisnya dalam bentuk olahan penganan yang mirip dodol, yaitu lempuk durian.</item>
+        <item>Jajanan tradisional yang berasal dari Indonesia yang diperkirakan sudah dikenal sejak zaman Kerajaan Mataram. Panganan ini beberapa kali disebut dalam Serat Centhini, yang ditulis para pujangga keraton Surakarta selama 1814–1823 atas perintah Pakubuwana V, sebagai sesaji dalam prosesi ijab atau pernikahan, ruwahan, dan terutama kudapan. Pada tembang (pupuh) ke-155 bait 18, [1] diceritakan bahwa serabi merupakan salah satu dari sekian banyak jenis jajanan yang dijajakan di halaman rumah pada saat pertunjukan wayang kulit di malam hari. Disebutkan pula, bahwa sembilan macam serabi juga merupakan bagian dari aneka penganan yang perlu disiapkan sebagai sajen dalam pertunjukan wayang dan ruwatan (Pupuh 157:7–8).</item>
+        <item></item>
+    </string-array>
+
     <string name="title">Bakpia Pathok</string>
     <string name="content_text"> Bakpia pathok adalah kue berbentuk bulat pipih, terbuat dari campuran kacang hijau dengan gula, yang dibungkus dengan tepung, lalu dipanggang. Bakpia asal mulanya berasal dari daratan Tiongkok. Bakpia pathok adalah salah satu varian bakpia yang berkembang di Yogyakarta. Saat ini, bakpia pathuk menjadi salah satu makanan khas sekaligus oleh-oleh khas dari Yogyakarta. Ini merupakan salah satu wujud nyata akulturasi budaya Tiongkok dan budaya Jawa, dalam hal ini budaya Yogyakarta.</string>
     <string name="content_specs_display">Yogyakarta</string>
