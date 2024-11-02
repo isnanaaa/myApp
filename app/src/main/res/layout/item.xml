@@ -42,7 +42,7 @@
             tools:text="@string/foods_name" />
 
         <TextView
-            android:id="@+id/item_description"
+            android:id="@+id/item_desc"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"

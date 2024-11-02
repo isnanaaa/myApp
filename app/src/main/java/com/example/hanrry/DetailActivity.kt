@@ -15,9 +15,6 @@ class DetailActivity : AppCompatActivity() {
         const val KEY_NAME = "key_name"
         const val KEY_DESC = "key_desc"
         const val KEY_IMAGE = "key_image"
-        const val KEY_WHERE = "key_where"
-        const val KEY_TYPE = "key_type"
-        const val KEY_HISTORY = "key_history"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,15 +32,10 @@ class DetailActivity : AppCompatActivity() {
         val name = intent.getStringExtra(KEY_NAME)
         val desc = intent.getStringExtra(KEY_DESC)
         val imageResId = intent.getIntExtra(KEY_IMAGE, 0)
-        val where = intent.getStringExtra(KEY_WHERE)
-        val type = intent.getStringExtra(KEY_TYPE)
-        val history = intent.getStringExtra(KEY_HISTORY)
 
         findViewById<TextView>(R.id.detail_name).text = name
         findViewById<TextView>(R.id.detail_desc).text = desc
         findViewById<ImageView>(R.id.detail_img).setImageResource(imageResId)
-        findViewById<TextView>(R.id.detail_name).text = where
-        findViewById<TextView>(R.id.detail_name).text = type
-        findViewById<TextView>(R.id.detail_name).text = history
+
     }
 }

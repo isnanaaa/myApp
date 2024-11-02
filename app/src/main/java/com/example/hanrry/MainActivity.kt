@@ -62,12 +62,9 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDesc = resources.getStringArray(R.array.data_desc)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
-        val dataWhere = resources.getStringArray(R.array.data_dom)
-        val dataType = resources.getStringArray(R.array.data_type)
-        val dataHistory = resources.getStringArray(R.array.data_history)
         val listFoo = ArrayList<Foo>()
         for (i in dataName.indices) {
-            val  foo = Foo(dataName[i], dataDesc[i], dataPhoto.getResourceId(i, -1), dataWhere[i], dataType[i], dataHistory[i])
+            val  foo = Foo(dataName[i], dataDesc[i], dataPhoto.getResourceId(i, -1))
             listFoo.add(foo)
         }
         return listFoo
@@ -82,14 +79,9 @@ class MainActivity : AppCompatActivity() {
 
             override fun onItemClicked(data: Foo) {
                 val intent = Intent(this@MainActivity, DetailActivity::class.java)
-
                 intent.putExtra(DetailActivity.KEY_NAME, data.name)
                 intent.putExtra(DetailActivity.KEY_DESC, data.description)
                 intent.putExtra(DetailActivity.KEY_IMAGE, data.photo)
-                intent.putExtra(DetailActivity.KEY_WHERE, data.where)
-                intent.putExtra(DetailActivity.KEY_TYPE, data.type)
-                intent.putExtra(DetailActivity.KEY_HISTORY, data.history)
-
                 startActivity(intent)
             }
         })
