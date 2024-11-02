@@ -55,21 +55,6 @@
         <item>Oleh-oleh khas Malino.\n\n\n\nTenteng Malino adalah makanan khas Bugis-Makassar yang berasal dari Kota Malino, Gowa, Sulawesi Selatan. Bahan dasar dari Makanan ini adalah Gula merah dan Kacang tanah, sehingga sering disebut Baje Canggoreng. Aslinya, bentuk kemasan makanan ini berbentuk seperti permen dengan pembungkus dari Kulit jagung. Tapi seiring perkembangan, kemasannya diganti menjadi plastik. Pembuatan makanan ini dimulai dari mencairkan gula merah pada wajan atau panci sampai mengental lalu dicampurkannya Kacang tanah ke dalam lumeran Gula merah. Diaduk hingga mulai mendingin dan dicetak sesuai ukuran dan dikemas dengan plastik.</item>
     </string-array>
 
-    <string-array name="data_history">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-    </string-array>
-
     <integer-array name="data_photo">
         <item>@drawable/bakpia</item>
         <item>@drawable/bika_ambon</item>
@@ -84,39 +69,6 @@
         <item>@drawable/serabi</item>
         <item>@drawable/tenteng_malino</item>
     </integer-array>
-
-    <string-array name="data_dom">
-        <item>Pathuk\n
-        Kota Yogyakarta\n
-        DI Yogyakarta</item>
-        <item>Medan\n
-            Sumatera Utara</item>
-        <item>Madiun</item>
-        <item>Kabupaten Pacitan</item>
-        <item>Garut</item>
-        <item>Sokaraja </item>
-        <item>Sulawesi Tenggara</item>
-        <item>Jakarta</item>
-        <item>Kabupaten Sekadau</item>
-        <item>Bengkulu, Jambi, Bengkalis, Pekanbaru</item>
-        <item>Surakarta</item>
-        <item>Kota Malino, Sulawesi Selatan</item>
-    </string-array>
-
-    <string-array name="data_type">
-        <item>Kue</item>
-        <item>Kue</item>
-        <item>Kue</item>
-        <item>Hidangan</item>
-        <item>Kue</item>
-        <item>Kue</item>
-        <item>Kue</item>
-        <item>Kue</item>
-        <item>Kue Kering</item>
-        <item>Lempuk</item>
-        <item>Panekuk</item>
-        <item>Kue</item>
-    </string-array>
 
     <string name="title">Bakpia Pathok</string>
     <string name="content_text"> Bakpia pathok adalah kue berbentuk bulat pipih, terbuat dari campuran kacang hijau dengan gula, yang dibungkus dengan tepung, lalu dipanggang. Bakpia asal mulanya berasal dari daratan Tiongkok. Bakpia pathok adalah salah satu varian bakpia yang berkembang di Yogyakarta. Saat ini, bakpia pathuk menjadi salah satu makanan khas sekaligus oleh-oleh khas dari Yogyakarta. Ini merupakan salah satu wujud nyata akulturasi budaya Tiongkok dan budaya Jawa, dalam hal ini budaya Yogyakarta.</string>
